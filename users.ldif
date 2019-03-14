@@ -1,0 +1,11 @@
+dn: uid=krich,ou=People,dc=univ-paris13,dc=fr
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+uid: krich
+cn: Ayyoub
+sn: Ayb
+mail: krich@keycloak.org
+postalCode: 88441
+userPassword: root
