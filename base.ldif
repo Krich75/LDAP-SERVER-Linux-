@@ -1,0 +1,27 @@
+
+# Base DN
+# Base
+dn: dc=univ-paris13,dc=fr
+dc: univ-paris13
+objectClass: top
+objectClass: domain
+
+
+
+dn: ou=adsys,dc=univ-paris13,dc=fr
+objectclass: top
+objectclass: organizationalUnit
+ou: adsys
+l: Vill
+
+# OU contenant les utilisateurs
+dn: ou=users,dc=univ-paris13,dc=fr
+objectclass: top
+objectclass: organizationalUnit
+ou: users
+
+# Ou contenant les groupes
+dn: ou=groups,dc=univ-paris13,dc=fr
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
